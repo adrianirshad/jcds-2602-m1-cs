@@ -1,11 +1,14 @@
 # JCDS-2602 Module 1 Capstone Project: Car Rental System
 
+
 # Import libraries
 import os
 import platform
 from tabulate import tabulate 
 
 # Function to clear the terminal where needed
+# Remove or modify this function if you are not using a windows device
+# Or else the program will not able to run
 def clear():
     if platform.system() == "Windows":
         os.system("cls")
